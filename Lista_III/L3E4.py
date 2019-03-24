@@ -1,10 +1,10 @@
-f1 = 1
-f2 = 1
-i = 2
 n = int (input ('Digite n: '))
-while i < n :
-    fi = f1 + f2
-    f1 = f2
-    f2 = fi
+a = 1
+b = 1
+i = 1
+while i <= n - 2 :
+    c = a + b
+    a = b
+    b = c
     i = i + 1
-print ('F(%d) = %d' %(i, fi))
+print ('F(%d) = %d' %(n, b))
