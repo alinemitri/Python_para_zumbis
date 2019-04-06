@@ -1,7 +1,7 @@
 notas = []
 i = 1
 soma = 0
-while i > 4
+while i <= 4 :
     n = float (input ('Digite a nota: '))
     notas.append (n)
     soma += n
